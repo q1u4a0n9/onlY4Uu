@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😉🫶🏻❤N</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="ptn.png" ></head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body bgcolor="black">
+    <div class="heart-container"></div>
+    
+    <script>
+
+        const heartContainer = document.querySelector('.heart-container');
+
+        setInterval(() => {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+
+            // Thiết lập vị trí ngẫu nhiên
+            heart.style.left = `${Math.random() * 100}%`;
+            heart.style.top = `${Math.random() * 100}%`;
+
+            // Thiết lập hiệu ứng động (ví dụ: rơi xuống)
+            heart.style.animation = 'fall 2s ease-in-out infinite';
+
+            heartContainer.appendChild(heart);
+
+            // Xóa trái tim sau một khoảng thời gian
+            setTimeout(() => {
+                heart.remove();
+            }, 2000);
+        }, 100);
+
+        // CSS animation
+
+    </script>
+      <div class="ds-anh">
+        <div class="list">
+            <div class="item" ><img src="N1.jpg" alt=""></div>
+            <div class="item"><img src="N2.jpg" alt=""></div>
+            <div class="item"><img src="N3.jpg" alt=""></div>
+            <div class="item1">
+                <div id="box1">
+                    <a  target="_blank" href="https://www.youtube.com/watch?v=Oc4ciaVL5oo&list=PLfb4Bm-S6thErliquaSfq9S0sjC19JW51">
+                    <p id="box2010"> <b><span id="haimuoithangmuoi" >20/10 Vui vẻ nha </span><i id="Nhan" >Nhàn</i></b>
+                      <br>  🌷🌸🌷🌸
+                        <br>. .🌸🌷🌸🌷🌸
+                        <br>∧🌷🌸🌷🌸🌷
+                        <br>[ ˘ ᵕ ˘🌷🌸🌷
+                        <br>[ヽ つ\. . ./
+                        <br>.∪∪ / 🎀 \
+                    </p>
+                </a>
+                </div>
+            </a>
+            </div>
+            
+            <div class="item"><img src="N4.jpg" alt=""></div>
+            <div class="item"><img src="N5.jpg" alt=""></div>
+            <div class="item"><img src="N7.jpg" alt=""></div>
+        </div>
+    </div>
+    
+
+    <div class="main">
+        <aside class="khung-chu">
+            <p class="line1" >
+            I can't be your love</p>
+            <p class="line2" >Look, it’s too trivial for you now</p>
+            <p class="line1" >Oh, my life is fallin' apart</p>
+            <p class="line1" >Maybe no one will notice if I disappear</p>
+          
+        </aside>
+        <aside class="khungchu2">
+            <p class="line1" >But <span id="toi">I</span>'ll</p>
+            <p> pray for you all the time</p>
+            <p class="line1" >If I could be </p>
+            <p>by your side</p>
+            <p class="line1" >I’ll give you all my life, my seasons</p>
+     
+        </aside>   
+        <aside class="khung-chu3">
+            <p>I can't be your love</p>
+            <p>'Cause I'm afraid I'll ruin your life</p>
+            <p>While the leaves withered away</p>
+            <p>And grew again            </p>
+            <p>You have gone far away</p>
+            <p>I'll be pushing up daisies</p>
+            <p>And bring all the chances to here</p>
+
+            </aside>
+            <aside class="khungchu4">
+                <p class="line2" >But <span id="toi">I</span>'ll</p>
+                <p> pray for you all the time</p>
+                <p class="line1" >If I could be </p>
+                <p>by your side</p>
+                <p class="line1" >I’ll give you all my life, my seasons</p>
+
+            </aside>
+        
+    </div>
+    <button id="soundButton" onclick="toggleMute()">
+        <i id="volumeIcon" class="fas fa-volume-up"></i>
+    </button>
+    <audio id="audio" src="wawe to earth-seasons.MP3" autoplay muted></audio>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+var audio = document.getElementById("audio");
+audio.muted = false;
+audio.play();
+});
+    </script>
+
+    <script>
+      function toggleMute() {
+            var audio = document.getElementById('audio');
+            var volumeIcon = document.getElementById('volumeIcon');
+    
+            if (audio.muted) {
+                audio.muted = false;
+                volumeIcon.classList.remove('fa-volume-mute');
+                volumeIcon.classList.add('fa-volume-up');
+            } else {
+                audio.muted = true;
+                volumeIcon.classList.remove('fa-volume-up');
+                volumeIcon.classList.add('fa-volume-mute');
+            }
+          }
+    </script>
+    <div id="box3" align="center" class="containter">
+        
+        <div id="box2" style="color: white;">
+
+        </div>
+
+        <h2 style="color: white;" style="font-style: oblique;" id="ditimtraidat"> ★彡[ Đi tìm trái đất ] 彡✿</h2>
+        <div class="image-container">
+            <img id="qualityImage" alt="Địa Cầu" style="color: white;">
+
+        </div>
+
+        <select id="qualitySelect" onchange="changeImage()">
+
+            <option></option>
+            <option value="144p">144p</option>
+            <option value="240p">240p</option>
+            <option value="480p">480p</option>
+            <option value="720p">720p</option>
+            <option value="1080p">1080p
+            </option>
+
+            <script src="script.js"></script>
+            <div class="main">
+                <aside class="khung-chu">
+                    <p class="line1" >
+                    I can't be your love</p>
+                    <p class="line1" >Look, it’s too trivial for you now</p>
+                    <p class="line1" >Oh, my life is fallin' apart</p>
+                    <p class="line1" >Maybe no one will notice if I disappear</p>
+                  
+                </aside>
+                <aside class="khungchu2">
+                    <p class="line1" >But I'll</p>
+                    <p> pray for you all the time</p>
+                    <p class="line1" >If I could be </p>
+                    <p>by your side</p>
+                    <p class="line1" >I’ll give you all my life, my seasons</p>
+             
+                </aside>   
+            
+                
+            </div>
+            
+
+</body>
+
+</html>
