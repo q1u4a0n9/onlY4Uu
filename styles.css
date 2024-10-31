@@ -387,13 +387,13 @@ right: 0%;
     transform: perspective(1000px);
   }
   .list .item {
-  transition: .5s;
+  transition: .7s;
   filter: brightness(25%);
   opacity:  24%;
   }
    .list .item:hover{
     filter: brightness(1);
     opacity: 1;
-    transform: translateZ(150px);
+    transform: translateZ(120px);
    }
   
