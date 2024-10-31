@@ -106,8 +106,11 @@
     <button id="soundButton" onclick="toggleMute()">
         <i id="volumeIcon" class="fas fa-volume-up"></i>
     </button>
-    <audio id="audio" src="wawe to earth-seasons.MP3" autoplay muted></audio>
-    <script>
+    <div class="audio1">
+    <audio id="audio" src="wawe to earth-seasons.MP3" autoplay controls></audio>
+    </div>
+        <script>
+        
         document.addEventListener('click', function() {
 var audio = document.getElementById("audio");
 audio.muted = false;
