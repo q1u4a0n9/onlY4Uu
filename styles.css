@@ -20,7 +20,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   position: relative;
 }
-
+.audio1 {
+   width: 290px;
+    margin: 0 auto;
+}
 h1 {
   color: #fff;
   /* Chữ màu trắng */
